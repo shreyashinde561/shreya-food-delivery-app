@@ -12,8 +12,7 @@
 - [Contact](#contact)
 
 ## 📊 Introduction
-This is a full-stack food ordering web application built using the MERN stack (MongoDB, Express, React, Node.js). The application consists of a customer-facing app for ordering food and an admin app for managing orders, menu items, and more.
-
+This is a full-stack food delivery web application developed by Shreya Shinde using the MERN stack. It allows users to browse food items, place orders, and manage their accounts with secure authentication.
 ## 🚀 Features
 - User authentication and authorization
 - Browse food items
@@ -149,11 +148,12 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 👨‍💻 Contributors
 
-[Dulanjali Senarathna](https://github.com/DulanjaliSenarathna)
- — Project Owner
+👨‍💻 Developer
+Shreya Shinde — Full Stack Developer
 
-[prem2621](https://github.com/prem2621)
- — Bug fixes, secure env handling, image display improvement
+📫 Contact
+Email: shreyashinde561@gmail.com
+Phone: +91 9527739860
 
 ## 📫 Contact
 For any questions or suggestions, feel free to contact me.

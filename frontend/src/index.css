@@ -1,29 +1,44 @@
+/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-*{
+
+/* Reset & base styles */
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Outfit;
+  font-family: 'Outfit', sans-serif;
   scroll-behavior: smooth;
 }
 
-body{
+/* Body styling */
+body {
   min-height: 100vh;
+  background-color: #fdfdfd; /* light neutral background for freshness */
+  color: #333; /* dark text for readability */
 }
 
-a{
+/* Links */
+a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.3s;
 }
 
-.app{
+a:hover {
+  color: #4caf50; /* brand green hover for links */
+}
+
+/* Main app container */
+.app {
   width: 80%;
   margin: auto;
+  max-width: 1300px; /* optional for large screens */
 }
 
+/* Fade-in animation */
 @keyframes fadeIn {
   0%{
-    opacity:0 ;
+    opacity: 0;
   }
   100%{
     opacity: 1;

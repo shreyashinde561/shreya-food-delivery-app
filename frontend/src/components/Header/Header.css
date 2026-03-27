@@ -1,16 +1,20 @@
-.header{
+/* Header container */
+.header {
     height: 34vw;
     margin: 30px auto;
-    background: url('/header_img.png') no-repeat;
-    background-size: contain;
+    background: url('/header_img.png') no-repeat center center;
+    background-size: cover; /* make it cover full area nicely */
     position: relative;
+    border-radius: 12px; /* subtle rounded corners */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2); /* soft shadow for depth */
 }
 
-.header-contents{
+/* Header content text */
+.header-contents {
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     gap: 1.5vw;
     max-width: 50%;
     bottom: 10%;
@@ -18,41 +22,52 @@
     animation: fadeIn 3s;
 }
 
-.header-contents h2{
-    font-weight: 500;
-    color: white;
-    font-size:max(4.5vw, 22px);
+/* Headline */
+.header-contents h2 {
+    font-weight: 600;
+    color: #ffffff; /* white text for contrast */
+    font-size: max(4.5vw, 22px);
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4); /* subtle shadow for readability */
 }
 
+/* Paragraph text */
 .header-contents p {
-    color: white;
-    font-size: 1vw;
+    color: #f0f0f0; /* light gray for subtitle */
+    font-size: max(1.2vw, 14px);
 }
 
-.header-contents button{
+/* Button */
+.header-contents button {
     border: none;
-    color: #747474;
-    font-weight: 500;
+    color: #ffffff; /* white text */
+    font-weight: 600;
     padding: 1vw 2.3vw;
-    background-color: white;
+    background-color: #4caf50; /* green primary button */
     font-size: max(1vw,13px);
     border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-@media (max-width:1050px){
-.header-contents{
-    max-width: 45%;
+.header-contents button:hover {
+    background-color: #81c784; /* lighter green on hover */
+    transform: scale(1.05);
 }
+
+/* Responsive adjustments */
+@media (max-width:1050px){
+    .header-contents{
+        max-width: 45%;
+    }
 }
 
 @media (max-width:750px){
-    
     .header-contents{
         max-width: 65%;
     }
 
     .header-contents p {
-        display: none;
+        display: none; /* hide subtitle on small screens */
     }
 
     .header-contents button{

@@ -1,163 +1,89 @@
-/* Navbar container */
 .navbar{
-    padding: 20px 0px;
+    padding: 20px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Logo */
-.navbar .logo{
-    width: 150px;
+/* LOGO TEXT */
+.logo-text{
+    font-size: 28px;
+    font-weight: bold;
+    color: #4CAF50;
+    text-decoration: none;
 }
 
-/* Menu items */
+/* MENU */
 .navbar-menu{
     display: flex;
+    gap: 30px;
     list-style: none;
-    gap: 20px;
-    color: #49557e;
+}
+
+.navbar-menu a{
+    text-decoration: none;
+    color: #333;
     font-size: 18px;
 }
 
-/* Right section (buttons / icons) */
+/* ACTIVE */
+.navbar-menu .active{
+    border-bottom: 2px solid #4CAF50;
+}
+
+/* RIGHT SIDE */
 .navbar-right{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 25px;
 }
 
-/* Button styling */
+.navbar-right img{
+    width: 22px;
+    cursor: pointer;
+}
+
+/* BUTTON */
 .navbar button{
     background: transparent;
-    font-size: 16px;
-    color: #49557e;
-    border: 1px solid #4caf50; /* ShreyaEats brand color */
-    padding: 10px 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.navbar button:hover {
-    background-color: #e8f5e9; /* light green hover */
-}
-
-/* Active menu link */
-.navbar .active{
-    padding-bottom: 2px;
-    border-bottom: 2px solid #49557e;
-}
-
-/* Menu list item */
-.navbar li{
+    border: 1px solid #4CAF50;
+    padding: 8px 20px;
+    border-radius: 25px;
     cursor: pointer;
 }
 
-/* Search icon dot */
+/* CART DOT */
 .navbar-search-icon{
     position: relative;
 }
 
-.navbar-search-icon .dot{
+.dot{
     position: absolute;
-    min-width: 10px;
-    min-height: 10px;
-    background-color: #4caf50; /* brand color */
-    border-radius: 5px;
-    top: -8px;
-    right: -8px;
+    width: 8px;
+    height: 8px;
+    background: #4CAF50;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
 }
 
-/* Profile dropdown */
+/* PROFILE */
 .navbar-profile{
-    position: relative;  
+    position: relative;
 }
 
 .nav-profile-dropdown{
     position: absolute;
     display: none;
     right: 0;
-    z-index: 1;
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    list-style: none;
 }
 
 .navbar-profile:hover .nav-profile-dropdown{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: #e8f5e9; /* light green */
-    padding: 12px 25px;
-    border-radius: 4px;
-    border: 1px solid #4caf50; /* brand color border */
-    outline: 2px solid;
-    list-style: none;
-}
-
-.nav-profile-dropdown img{
-    width: 20px;
-}
-
-.nav-profile-dropdown li:hover{
-    color: #4caf50; /* brand green hover */
-}
-
-.nav-profile-dropdown li{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-}
-
-/* Responsive adjustments */
-@media (max-width:1050px){
-    .navbar .logo{
-        width: 140px;
-    }
-
-    .navbar-menu{
-        gap: 20px;
-        font-size: 17px;
-    }
-
-    .navbar-right{
-        gap: 30px;
-    }
-
-    .navbar-right img{
-        width: 22px;
-    }
-
-    .navbar-right button{
-        padding: 8px 25px;
-    }
-}
-
-@media (max-width:900px){
-    .navbar .logo{
-        width: 120px;
-    }
-
-    .navbar-menu{
-        gap: 15px;
-        font-size: 16px;
-    }
-
-    .navbar-right{
-        gap: 20px;
-    }
-
-    .navbar-right img{
-        width: 20px;
-    }
-
-    .navbar-right button{
-        padding: 7px 20px;
-        font-size: 15px;
-    }
-}
-
-@media (max-width:750px){
-    .navbar-menu{
-        display: none;
-    } 
 }

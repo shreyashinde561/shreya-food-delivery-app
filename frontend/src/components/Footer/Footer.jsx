@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="footer-content">
             
             <div className="footer-content-left">
-                <img src={assets.logo} alt="logo" />
+                <h2 className="footer-logo">ShreyaEats</h2>
                 <p>
-                  Shreya Food is a modern food delivery platform offering delicious meals with fast delivery and great quality. Order your favourite food anytime, anywhere.
+                  ShreyaEats is a modern food delivery platform offering delicious meals with fast delivery and great quality. Order your favourite food anytime, anywhere.
                 </p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="facebook" />
@@ -42,7 +42,7 @@ const Footer = () => {
         <hr />
 
         <p className="footer-copyright">
-            © 2026 Shreya Shinde. All Rights Reserved. ShreyaEats
+            © 2026 Shreya Shinde | ShreyaEats. All Rights Reserved.
         </p>
     </div>
   )

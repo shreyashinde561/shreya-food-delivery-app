@@ -44,7 +44,7 @@ Use the admin panel to manage orders, menu items.
 
 ## 📸 Screenshots
 # 🏠 Home : 
-<img width="1853" height="895" alt="Screenshot 2026-03-27 222718" src="https://github.com/user-attachments/assets/549ec446-5aa2-42e1-978d-5790d91c3f59" />
+<img width="1867" height="839" alt="Screenshot 2026-03-28 133945" src="https://github.com/user-attachments/assets/b7bb1efc-ce3b-4352-aefd-f02aaa60db01" />
 # 🔐 Login :
 <img width="1882" height="822" alt="Screenshot 2026-03-27 145258" src="https://github.com/user-attachments/assets/e984b849-835b-45df-a0c2-42714cfc6f1d" />
 # 🔐 Signup : 
@@ -56,9 +56,9 @@ Use the admin panel to manage orders, menu items.
 # ℹ️ App Download : 
 <img width="1845" height="889" alt="Screenshot 2026-03-27 222444" src="https://github.com/user-attachments/assets/eca9a5b7-f313-4030-98a3-2d0acde8ab34" />
 # 🍱 Menu Food :
-<img width="1870" height="900" alt="Screenshot 2026-03-27 223150" src="https://github.com/user-attachments/assets/16cc638c-29be-42e3-8eff-f2e1ab127d3e" />
+<img width="1868" height="862" alt="Screenshot 2026-03-28 134132" src="https://github.com/user-attachments/assets/7b0016d1-5f36-4885-ae53-578ce654ae49" />
 # 🛒 Cart : 
-<img width="1859" height="745" alt="Screenshot 2026-03-27 223544" src="https://github.com/user-attachments/assets/bf81f7d7-4219-41b5-b6a2-8f57c15e6bab" />
+<img width="1867" height="761" alt="Screenshot 2026-03-28 134212" src="https://github.com/user-attachments/assets/0c7304e8-6e37-4421-9a9b-bc126aef748f" />
 # 📞 Contact :
 <img width="1845" height="889" alt="Screenshot 2026-03-27 222444" src="https://github.com/user-attachments/assets/b70b1771-6037-4cb1-a2ca-08751c488e31" />
 # ❤️ Payment :

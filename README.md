@@ -50,7 +50,7 @@ Use the admin panel to manage orders, menu items.
 # 🔐 Signup : 
 <img width="1872" height="838" alt="Screenshot 2026-03-28 134640" src="https://github.com/user-attachments/assets/ba54b1c0-c17d-48fa-923c-8e5e34e782b1" />
 # 🍔 Menu :
-<img width="1864" height="886" alt="Screenshot 2026-03-27 223309" src="https://github.com/user-attachments/assets/74d5cebf-8d91-4db0-9d83-dc5d21f35e84" />
+<img width="1876" height="906" alt="Screenshot 2026-03-28 134917" src="https://github.com/user-attachments/assets/2d16417c-72db-4397-a936-17d1e674086e" />
 # 🍱 Menu Food :
 <img width="1861" height="906" alt="Screenshot 2026-03-27 223100" src="https://github.com/user-attachments/assets/d3bb3d2e-7ab4-4f0c-8f1c-5e61d47f45d1" />
 # ℹ️ App Download : 
